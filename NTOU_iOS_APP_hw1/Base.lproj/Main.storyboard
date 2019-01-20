@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Rnh-5G-Pr7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Paul Reed Smith Guitars-->
+        <scene sceneID="OP1-RF-Q3e">
+            <objects>
+                <tableViewController id="jFk-Sz-bce" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="epy-9a-sBb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection headerTitle="Custom" id="8iG-se-Xh3">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ePx-YX-qU0">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ePx-YX-qU0" id="hbZ-ax-GPm">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3HB-o4-20L">
+                                                    <rect key="frame" x="137" y="2" width="101" height="38"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <state key="normal" title="Custom 24"/>
+                                                    <connections>
+                                                        <segue destination="d0L-8P-Kbf" kind="push" id="Xik-So-gS9"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="oTL-nI-Dqu">
+                                        <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="oTL-nI-Dqu" id="zdu-wj-vb9">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hr1-62-Wub">
+                                                    <rect key="frame" x="137" y="5" width="101" height="38"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <state key="normal" title="Custom 22"/>
+                                                    <connections>
+                                                        <segue destination="1mJ-wA-rRt" kind="push" id="gAJ-YC-p5e"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="MEB-g3-yoZ">
+                                        <rect key="frame" x="0.0" y="116" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MEB-g3-yoZ" id="NkE-FW-u4P">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="McCarty" id="gaX-qg-SME">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Uwa-ox-v8M">
+                                        <rect key="frame" x="0.0" y="188" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Uwa-ox-v8M" id="bfh-Qg-l60">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhq-tW-nzp">
+                                                    <rect key="frame" x="148" y="2" width="79" height="38"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <state key="normal" title="McCarty"/>
+                                                    <connections>
+                                                        <segue destination="vm2-ZW-BsH" kind="push" id="e0m-uV-yhy"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="jFk-Sz-bce" id="GAv-q3-pwy"/>
+                            <outlet property="delegate" destination="jFk-Sz-bce" id="hxL-6C-fNf"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Paul Reed Smith Guitars" id="NtA-Ka-PKb"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sk6-V2-71U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="918" y="-878"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aJk-EJ-btA">
+            <objects>
+                <viewController id="d0L-8P-Kbf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ThW-WK-eRh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="custom24_2017_straight1" translatesAutoresizingMaskIntoConstraints="NO" id="6ap-Nx-iSd">
+                                <rect key="frame" x="0.0" y="64" width="375" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PqD-s0-DuM">
+                                <rect key="frame" x="0.0" y="200" width="375" height="434"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">The Custom 24 is the quintessential PRS guitar. This iconic instrument was the first model that Paul Reed Smith brought to the public at PRS Guitars’ first Winter NAMM show in 1985 and has been a top seller ever since. Played by internationally touring artists, gigging musicians, and aspiring players, the Custom 24 features PRS’s patented Gen III tremolo system and PRS 85/15 pickups with volume and tone controls and a 5-way blade switch. 85/15 pickups were personally designed by Paul Reed Smith to offer remarkable clarity and extended high and low end.
+
+The Custom 24 is the original PRS. Since its introduction, it has offered a unique tonal option for serious players and defined PRS tone and playability.
+
+Pickup Switching Positions
+
+Position One: Bridge humbucker
+Position Two: Bridge humbucker with neck singlecoil, in parallel
+Position Three: Bridge and neck humbuckers
+Position Four: Neck singlecoil with bridge singlecoil, in parallel
+Position Five: Neck humbucker</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="bKM-Qb-Vmi"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Rmv-JE-d5q"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XHA-Yz-taC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1854" y="-1983"/>
+        </scene>
+        <!--Gibson Guitars-->
+        <scene sceneID="10F-mK-pDh">
+            <objects>
+                <tableViewController id="6dY-rW-7Ar" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Dzh-VA-bqZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection headerTitle="Les Paul" id="myi-aY-pje">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="DHZ-kB-J7e">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DHZ-kB-J7e" id="PXy-YU-cLq">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4m-hj-zaT">
+                                                    <rect key="frame" x="111" y="2" width="152" height="38"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <state key="normal" title="Les Paul Custom"/>
+                                                    <connections>
+                                                        <segue destination="QHV-Xk-YTl" kind="push" id="GZf-SW-FQI"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="7bU-ki-Oce">
+                                        <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7bU-ki-Oce" id="EHs-ns-0Jt">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="msS-kO-9uJ">
+                                                    <rect key="frame" x="51" y="5" width="272" height="38"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <state key="normal" title="Les Paul Studio-Coming Soon"/>
+                                                    <connections>
+                                                        <segue destination="rPt-tp-CjD" kind="push" id="Eqk-lm-KK3"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="SG" id="BCS-5B-l1v">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="KlR-92-9kR">
+                                        <rect key="frame" x="0.0" y="144" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KlR-92-9kR" id="i9R-DY-aIt">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0A-Ry-rVk">
+                                                    <rect key="frame" x="135" y="2" width="105" height="38"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <state key="normal" title="SG Custom"/>
+                                                    <connections>
+                                                        <segue destination="HBl-Wb-nbG" kind="push" id="KEs-56-mCh"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="6dY-rW-7Ar" id="WWJ-yq-aM6"/>
+                            <outlet property="delegate" destination="6dY-rW-7Ar" id="qoO-hy-M6R"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Gibson Guitars" id="k8V-9E-FFr"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Km-fe-tZc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="925" y="-203"/>
+        </scene>
+        <!--Fender Guitars-->
+        <scene sceneID="dPi-24-5bX">
+            <objects>
+                <tableViewController id="bhJ-T2-QRZ" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Qbv-Pl-HDt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection headerTitle="Stratocaster" id="ZR8-wG-iN1">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Vu3-vb-xbb">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Vu3-vb-xbb" id="Tor-HA-fSS">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNg-jh-uAQ">
+                                                    <rect key="frame" x="33" y="5" width="309" height="38"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <state key="normal" title="American Performer Stratocaster®"/>
+                                                    <connections>
+                                                        <segue destination="gDT-GC-7yE" kind="push" id="VxN-nn-iaH"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="sXm-K0-yDo">
+                                        <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sXm-K0-yDo" id="sSk-UX-Rr8">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8yw-Cy-xV6">
+                                                    <rect key="frame" x="31" y="5" width="313" height="38"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <state key="normal" title="Player Stratocaster® HHS Plus Top"/>
+                                                    <connections>
+                                                        <segue destination="3li-4n-dCW" kind="push" id="Ept-BK-lE6"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Telecaster" id="9rb-2n-CO7">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Qe4-bn-cj5">
+                                        <rect key="frame" x="0.0" y="144" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Qe4-bn-cj5" id="cmW-5i-HMC">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBQ-8L-L6C">
+                                                    <rect key="frame" x="42" y="2" width="291" height="38"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <state key="normal" title="American Performer Telecaster®"/>
+                                                    <connections>
+                                                        <segue destination="aiS-cG-6NY" kind="push" id="imV-fS-8ki"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="bhJ-T2-QRZ" id="vcq-YP-yeN"/>
+                            <outlet property="delegate" destination="bhJ-T2-QRZ" id="oRD-Uf-4uK"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Fender Guitars" id="JBi-zV-PFj"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bci-IB-YXW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="919" y="475"/>
+        </scene>
+        <!--Fender-->
+        <scene sceneID="EcL-Jv-Sju">
+            <objects>
+                <navigationController id="z2G-9l-SX6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Fender" image="Rock Music-595b40b85ba036ed117da983" id="wFG-wW-fsc"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uhz-3H-nVP">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="bhJ-T2-QRZ" kind="relationship" relationship="rootViewController" id="xSl-dI-puB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="42c-ec-3ZJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-32" y="475"/>
+        </scene>
+        <!--Gibson-->
+        <scene sceneID="9ic-ps-nn5">
+            <objects>
+                <navigationController id="41B-fY-BNc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Gibson" image="Rock Music-595b40b85ba036ed117de0cf" id="qw8-ci-pBb"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ODh-cQ-gTK">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="6dY-rW-7Ar" kind="relationship" relationship="rootViewController" id="B6h-xg-GzU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vNN-ub-b57" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-26" y="-203"/>
+        </scene>
+        <!--PRS-->
+        <scene sceneID="Wh9-mg-pwS">
+            <objects>
+                <navigationController id="FEZ-fH-yA3" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="PRS" image="Rock Music-595b40b65ba036ed117d2341" id="RCd-bI-teT"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sLT-xQ-6Vo">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="jFk-Sz-bce" kind="relationship" relationship="rootViewController" id="LLv-4F-12o"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pqd-3K-srD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-26" y="-878"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="oBf-RF-vk0">
+            <objects>
+                <tabBarController id="Rnh-5G-Pr7" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cbY-Xu-IHm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="FEZ-fH-yA3" kind="relationship" relationship="viewControllers" id="HKj-M1-28v"/>
+                        <segue destination="41B-fY-BNc" kind="relationship" relationship="viewControllers" id="5zR-1D-iCv"/>
+                        <segue destination="z2G-9l-SX6" kind="relationship" relationship="viewControllers" id="UmV-q8-A76"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0hQ-D1-4Fd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-977" y="-546"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="z0B-Ir-8Tx">
+            <objects>
+                <viewController id="1mJ-wA-rRt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="npq-EC-DqM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="custom22_2017_straight1" translatesAutoresizingMaskIntoConstraints="NO" id="d9c-ur-enq">
+                                <rect key="frame" x="0.0" y="64" width="375" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AX6-cP-6rE">
+                                <rect key="frame" x="0.0" y="200" width="375" height="317"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">The Custom 22 is a classic workhorse with all the tones you’ve come to expect from your PRS with a distinctive midrange and clarity thanks, in part, to its 85/15 pickups. These pickups are wired for our 5-way blade switch, which offers a dual humbucker option (see switching positions below). The Custom 22 also features a PRS patented Gen III trem and comfortable solid mahogany pattern neck.
+
+Pickup Switching Positions
+
+Position One: Bridge humbucker
+Position Two: Bridge humbucker with neck singlecoil, in parallel
+Position Three: Bridge and neck humbuckers
+Position Four: Neck singlecoil with bridge singlecoil, in parallel
+Position Five: Neck humbucker</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="guy-Vo-K7t"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dKW-kp-hAr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LtE-YG-EfZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1854" y="-1300"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ruh-Hm-DA9">
+            <objects>
+                <viewController id="vm2-ZW-BsH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Tl-TH-phf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mccarty_2017_mccarty_sunburst_straight1" translatesAutoresizingMaskIntoConstraints="NO" id="iEi-nN-odr">
+                                <rect key="frame" x="0.0" y="64" width="375" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0WC-l9-TYf">
+                                <rect key="frame" x="0.0" y="200" width="375" height="450.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">The PRS McCarty model pays homage to a legacy of innovation.  As the President of Gibson during a true golden era of guitar building (1950-1966), Ted McCarty was a pioneer of the electric guitar and musical instrument industry. In the late 1980’s, Paul Reed Smith called on Ted to consult with him on guitar design and production techniques. He not only served as Paul’s mentor but became a great friend of Paul and everyone he met at PRS.
+
+In 1994, PRS released the first McCarty, an instrument that incorporated the full spectrum of techniques and knowledge Paul had gained from Ted as well as his own experiences as a guitar builder.  It is in honor of Ted McCarty – his knowledge, his friendship, and his memory – that PRS reintroduced the McCarty model.
+
+The PRS McCarty model features a slightly thicker back for enhanced tone and sustain and the 58/15 treble and bass pickups, which were personally designed by Paul Reed Smith. 58/15’s are a vintage style pickup with exceptional clarity and focused midrange. Additional appointments include a push/pull tone control with a 3-way toggle pickup switch for a complete palette of tones, a bound rosewood fretboard, and PRS stoptail bridge with brass studs for added resonance. </mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="vc8-me-yi1"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8sb-zw-9Yl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="euH-i9-EYc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2690" y="-1562"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5vc-gH-4tj">
+            <objects>
+                <viewController id="QHV-Xk-YTl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7ID-s2-ZCa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lpc_front-1600x900" translatesAutoresizingMaskIntoConstraints="NO" id="hMD-5u-tke">
+                                <rect key="frame" x="0.0" y="30" width="375" height="205"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ubw-VX-uVW">
+                                <rect key="frame" x="0.0" y="243" width="375" height="116.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">The 2017 SG Custom retains all the fast-playing, devilish charm of an SG refreshed with iconic Custom aesthetics. Its two powerful humbuckers are a first, while its slick, ebony nitrocellulose finish and multi-ply appointments combine pure rock and roll with pure class.</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Hlb-M7-4Nt"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="CsK-PC-sjy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5C0-Al-g0C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1854" y="-651"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="NMZ-Xp-WgX">
+            <objects>
+                <viewController id="rPt-tp-CjD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kSk-Aa-1ou">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="front-banner" translatesAutoresizingMaskIntoConstraints="NO" id="Xed-RR-Kyx">
+                                <rect key="frame" x="0.0" y="30" width="375" height="205"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AB3-hN-gMJ">
+                                <rect key="frame" x="0.0" y="243" width="375" height="166.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">The Les Paul Studio embodies the essential Les Paul features with enhancements for playability and tonal versatility. The bound rosewood fingerboard and slim taper mahogany neck provide effortless playability and comfort. The 490R and 498T pickups provide tight, high-output humbucking performance and the two push-pull pots offer additional coil-tapping options. Now available in four fun finishes: Smokehouse Burst, Tangerine Burst, Wine Red and Ebony.</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ijI-1v-xae"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="nJ2-Kc-C27"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xRH-Jt-DCF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1854" y="0.0"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="b4A-v8-Ph4">
+            <objects>
+                <viewController id="HBl-Wb-nbG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PTt-Bu-Tu0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sgc_front-1600x900" translatesAutoresizingMaskIntoConstraints="NO" id="0qU-fk-lQb">
+                                <rect key="frame" x="0.0" y="30" width="375" height="205"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="51i-CS-ncy">
+                                <rect key="frame" x="0.0" y="243" width="375" height="116.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">The 2017 SG Custom retains all the fast-playing, devilish charm of an SG refreshed with iconic Custom aesthetics. Its two powerful humbuckers are a first, while its slick, ebony nitrocellulose finish and multi-ply appointments combine pure rock and roll with pure class.</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="QJL-ng-kOf"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ude-8h-5f3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wih-n2-6Yg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2689" y="-346"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WL3-Go-Y01">
+            <objects>
+                <viewController id="aiS-cG-6NY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xDK-aR-Mq6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="0115110342_gtr_frt_001_rr" translatesAutoresizingMaskIntoConstraints="NO" id="seN-3t-hjH">
+                                <rect key="frame" x="0.0" y="64" width="375" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bxq-F1-Tb4">
+                                <rect key="frame" x="0.0" y="192" width="375" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">The Corona, CA.-crafted American Performer Telecaster combines exceptional Fender tone and authentic feel with modern materials and player-oriented features designed to inspire while propelling your playing to new heights.</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="sla-b8-sWa"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="550-BH-DU8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P8E-P2-VrI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2727" y="810"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fqI-dG-asf">
+            <objects>
+                <viewController id="gDT-GC-7yE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1DS-Zw-aSu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="0114910342_gtr_frt_001_rr" translatesAutoresizingMaskIntoConstraints="NO" id="tlw-wh-Cdg">
+                                <rect key="frame" x="0.0" y="64" width="375" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J3B-Bu-7Yk">
+                                <rect key="frame" x="5" y="192" width="365.5" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Born in Corona, California, the American Performer Stratocaster delivers the exceptional tone and feel you expect from an authentic Fender—with new enhancements that make it even more inspiring to play.</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="lQ0-rp-RAa"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="BBK-Yf-G5I"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a9t-mr-rpZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1854" y="652"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="E0C-82-7kO">
+            <objects>
+                <viewController id="3li-4n-dCW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Toc-vx-neA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="0144562531_gtr_frt_001_rr" translatesAutoresizingMaskIntoConstraints="NO" id="oGk-Se-GAU">
+                                <rect key="frame" x="0.0" y="64" width="375" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YeO-Xm-cTR">
+                                <rect key="frame" x="0.0" y="192" width="375" height="166.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">The inspiring sound of a Stratocaster is one of the foundations of Fender. Featuring this classic sound—bell-like high end, punchy mids and robust low end, combined with crystal-clear articulation—the stunning Player Stratocaster HSS Plus Top is packed with authentic Fender feel and style. It’s ready to serve your musical vision, it’s versatile enough to handle any style of music and it’s the perfect platform for creating your own sound.</mutableString>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="0lJ-h9-jkf"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="I8l-xR-gmr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DeD-pF-Y9o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1854" y="1307"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="0114910342_gtr_frt_001_rr" width="576" height="184.55999755859375"/>
+        <image name="0115110342_gtr_frt_001_rr" width="576" height="188.63999938964844"/>
+        <image name="0144562531_gtr_frt_001_rr" width="576" height="185.27999877929688"/>
+        <image name="Rock Music-595b40b65ba036ed117d2341" width="7.679999828338623" height="7.440000057220459"/>
+        <image name="Rock Music-595b40b85ba036ed117da983" width="7.679999828338623" height="7.679999828338623"/>
+        <image name="Rock Music-595b40b85ba036ed117de0cf" width="7.679999828338623" height="7.1999998092651367"/>
+        <image name="custom22_2017_straight1" width="1064" height="363"/>
+        <image name="custom24_2017_straight1" width="1064" height="363"/>
+        <image name="front-banner" width="1600" height="900"/>
+        <image name="lpc_front-1600x900" width="1600" height="900"/>
+        <image name="mccarty_2017_mccarty_sunburst_straight1" width="1064" height="363"/>
+        <image name="sgc_front-1600x900" width="1600" height="900"/>
+    </resources>
+</document>
